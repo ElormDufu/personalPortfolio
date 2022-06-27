@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+body {
+    font-family: 'Joan', serif;
+    background-color: #042326;
+    color: white;
+    
+}
+
+.dufu {
+    color: #9C3E00; 
+    font-size: 30px;
+    cursor: pointer;
+}
+h1 {
+    color: #9C3E00;
+    font-size: 90px;
+    margin-top: 90px;
+}
+
+.main {
+    margin-left: 75px;
+    text-align: justify;
+}
+
+button {
+    margin-top: 50px;
+    background-color: #042326;
+    border: 1px solid #9C3E00;
+    padding: 15px;
+    box-shadow: 0.5px 0.5px #9C3E00;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    padding: 10px;
+    color: white; 
+}
+
+button:hover, 
+button a:hover {
+    color: #9C3E00;
+    opacity: 0.7;    
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0A3A40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    display: block;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #9C3E00;
+}
+
+.sidenav .closebtn {
+    font-size: 35px;
+    color: #9C3E00;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
